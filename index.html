@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<style>
+    ul#items li{
+        display: inline;
+        padding-right: 190px;
+    }
+    ul#headeritems li {
+        display: inline;
+        margin: 0px;
+        padding-right: 40px;
+        
+    }
+    </style>
+<body>
+ <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-tickers.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    },
+    {
+      "description": "DOGE/USD",
+      "proName": "BINANCEUS:DOGEUSD"
+    },
+    {
+      "description": "XRP/USD",
+      "proName": "KRAKEN:XRPUSD"
+    },
+    {
+      "description": "BNB/USD",
+      "proName": "BINANCEUS:BNBUSD"
+    }
+  ],
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "showSymbolLogo": true,
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    <div class="header">
+    <ul id ="headeritems">
+        <li style = "font-size: 45px">Coiners</li>
+        <li style = "font-size: 20px">Cryptos</li>
+        <li style = "font-size: 20px">Exchange</li>
+        <li style = "font-size: 20px">V.Portfolio</li>
+        <li style = "font-size: 20px">Tradathon</li>
+        <li style = "font-size: 20px">Rooms</li>
+        <li style = "font-size: 20px">Login/SignUp</li>
+        <li style = "font-size: 20px">News</li>
+        <li style = "font-size: 20px">SearchBar</li>
+
+    </ul>
+        </div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": "100%",
+  "height": "700",
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "light",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+<div class="footer">
+    <ul id ="items">
+       <li style="font-size: 25px">Coiners</li>
+        <li>About US</li>
+        <li>FAQs</li>
+        <li>SocialMedia</li>
+        <li>Submit Query</li>
+    </ul>
+</div>
+    
+
+</body>
+</html>

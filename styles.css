@@ -1,0 +1,21 @@
+h1 {
+    color: black;
+    background-color:chocolate
+        
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    color: black;
+}
+
+.footer{
+    background-color: chocolate;
+    height: 30px;
+}
+.header{
+    background-color: chocolate;
+}
